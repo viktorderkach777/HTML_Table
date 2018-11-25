@@ -1,0 +1,34 @@
+#mytable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%    
+}
+
+#mytable td, #mytable, th {
+    border: 1px solid #ddd;
+    padding: 8px;    
+}
+
+#mytable tr:nth-child(even){background-color: #f2f2f2;}
+
+#mytable tr:hover {background-color: #ddd;}
+
+.my-class{
+    border: 2px white;
+    background-color: #ddd;
+    height: 1cm;
+    text-align:right;
+}
+
+p, span {    
+    margin-left: 4%;    
+}
+
+div{
+    width: 90%;
+    margin: auto;
+}
+
+tbody{
+    text-align: left;
+}
