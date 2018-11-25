@@ -1,0 +1,45 @@
+/* Add a black background color to the top navigation */
+/*.nav-link {
+    background-color: #333;
+    overflow: hidden;
+}*/
+
+/* Style the links inside the navigation bar */
+a.nav-link {
+    /*float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;*/
+    border-bottom: 3px solid transparent;
+}
+
+a.nav-link:hover {
+    border-bottom: 3px solid blue;
+}
+
+a.nav-link.active {
+    border-bottom: 3px solid red;
+}
+
+.buttonInCarousel {
+    background-color: cyan;
+    border: 2px solid white;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.button4 {border-radius: 15px; width:100px; height: 40px;}
+
+button.buttonInCarousel:hover{ background-color: transparent;}
+
+button.button4.active {
+    background-color: transparent;
+}

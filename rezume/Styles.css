@@ -1,0 +1,16 @@
+#myTable {
+    /*background-color: transparent;
+    /*border-collapse: collapse;*/
+    border-spacing: 0;
+    /*border: 1px red solid;*/
+    /*background-image: url(wiki_new.png);*/
+}
+th,tr, td{
+    border: 1px gray solid;
+}
+tbody {
+    border: 1px gray solid;
+}
+.my-class{
+    border: 2px white;
+}
